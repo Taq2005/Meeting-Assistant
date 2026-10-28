@@ -30,3 +30,8 @@ TEMPERATURE = 0.3
 def get_env_api_key() -> str:
     """Return the API key from the environment / .env file, if any."""
     return os.getenv("GEMINI_API_KEY", "")
+
+
+def get_chatbot_api_key() -> str:
+    """Return the dedicated chatbot API key from the environment / .env file."""
+    return os.getenv("GEMINI_CHATBOT_API_KEY", "")

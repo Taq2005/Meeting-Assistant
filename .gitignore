@@ -1,1 +1,4 @@
 .env
+meeting_history.db*
+__pycache__/
+*.py[cod]
