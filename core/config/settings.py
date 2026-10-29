@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-APP_TITLE = "Meeting Assistant"
+APP_TITLE = "SmartMeet - An AI-Powered Meeting Assistant"
 
 DEFAULT_MODEL = "gemini-3.5-flash-lite"
 AVAILABLE_MODELS = ["gemini-3.5-flash-lite", "gemini-2.5-pro", "gemini-2.5-flash-lite"]
